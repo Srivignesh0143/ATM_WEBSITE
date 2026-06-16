@@ -1,6 +1,6 @@
 import axios from "axios";
 
-  import.meta.env.VITE_API_URL || "http://localhost:5001";
+  BASE_URL=import.meta.env.VITE_API_URL || "http://localhost:5001";
 
 const API = `${BASE_URL}/api/atm`;
 
